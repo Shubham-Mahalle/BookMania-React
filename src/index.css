@@ -120,3 +120,33 @@ input{
   text-transform: uppercase;
   padding: 18px 0 24px 0;
 }
+.Pages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 100px 10px;
+}
+.Pages ul{
+  display: flex;
+}
+.Pages ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.PageButtons{
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.Numbers{
+  border: 1px solid black;
+  margin-left: 2px;
+  width: 30px;
+  height: 30px;
+}
